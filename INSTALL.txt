@@ -1,0 +1,38 @@
+== МИНИМАЛЬНЫЕ СИСТЕМНЫЕ ТРЕБОВАНИЯ ==
+
+Java, ver. 17.x или новее.
+
+
+== СБОРКА В ECLIPSE IDE ==
+
+1. Выбираем проект.
+2. ПКМ.
+3. "Export..." -> "Runnable JAR file".
+4. В форме "Runnable JAR File Export" выбираем пункт "Copy required
+libraries into a sub-folder next to the generated JAR".
+5. В поле "Launch configuration" выбираем "startIt".
+6. В поле "Export destination" задаём полный путь формируемого файла
+JAR, плюс имя файла "dbcli.jar".
+7. Нажимаем на кнопку "Finish".
+
+После этого в указанной директории соберётся программное обеспечение
+с сопутствующими файлами и директориями, включая все необходимые
+библиотеки с драйверами JDBC и не только.
+
+
+== ФАЙЛ EXE ==
+
+При сборке дополнительно можно воспользоваться (при желании) программным
+обеспечением "Launch4j" (https://launch4j.sourceforge.net) для обёртывания
+JAR-файла в легковесный EXE-файл для Microsoft Windows.
+Но это необязательная вещь.
+
+
+== ОТКУДА МОЖНО СКАЧАТЬ JAVA ==
+
+Java можно скачать, например, отсюда:
+https://download.java.net/java/GA/jdk17.0.2/dfd4a8d0985749f896bed50d7138ee7f/8/GPL/openjdk-17.0.2_windows-x64_bin.zip
+http://www.java.com
+https://openjdk.org
+
+-- EOF
